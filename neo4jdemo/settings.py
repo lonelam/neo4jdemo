@@ -25,7 +25,7 @@ SECRET_KEY = '(wq394qov8(%eqewe2wa&q$9ixvsy++5nu^%_abb*=pn5v^a5!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['do.lonelam.me']
 
 
 # Application definition
