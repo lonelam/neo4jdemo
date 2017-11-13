@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我也不知道是啥的demo</title>
+    <form method="post">
+        {% csrf_token %}
+        <label rel="p1">person1</label><input type="text" name="p1" id="p1">
+        <label rel="p2">person2</label><input type="text" name="p2" id="p2">
+        <input type="submit">
+    </form>
+</head>
+
+<body>
+<div id="response">
+    {% for i in response %}
+        <div>{{ i | safe }}</div>
+    {% endfor %}
+</div>
+</body>
+</html>
